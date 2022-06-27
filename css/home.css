@@ -1,0 +1,187 @@
+img {
+    width: 100%;
+    height: 100%;
+}
+.imgHome {
+    height: 50vh;
+    width: 100%;
+}
+.nav-backcolor{
+    background-color: white;
+    color: black;
+    z-index: 1000;
+}
+.txt-name{
+    font-family: 'Bree Serif', serif;
+    font-size: 1.5rem;
+    padding-top: 10px;
+}
+.txt-nav{
+    font-family: 'Bree Serif', serif;
+    color: black;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+.txt-nav:hover{
+    color: rgb(197, 54, 54);
+}
+.nav-zamow {
+    float: right;
+}
+.nav-txt-a-zamow{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+.nav-txt-a-zamow:hover{
+    color: rgb(197, 54, 54);
+}
+.txt-basic-home{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 50px;
+}
+.txt{
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    font-size: 1.05rem;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.nowosc-img{
+    width: 250px;
+    height: 250px;
+    padding-top: 25px;
+    margin-left: 100px;
+}
+.nowosc-txt-basic{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 25px;
+}
+.nowosc-txt{
+    font-family: 'Architects Daughter', cursive; 
+    text-align: center;
+    font-size: 1.05rem;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 5px;
+}
+.txt-a{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-decoration: none;
+    color: black;
+}
+.txt-a:hover{
+    color: rgb(197, 54, 54);
+    text-decoration: none;
+}
+.div-zapoznaj{
+    text-align: center;
+}
+.txt-a-zamow{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 2rem;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-decoration: none;
+    color: black;
+}
+.txt-a-zamow:hover{
+    color: rgb(197, 54, 54);
+    text-decoration: none;
+}
+.zamow{
+    text-align: center;
+}
+.anim-green{
+    animation-name: animGreen;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+}
+@keyframes animGreen{
+    0% {
+        color: black;
+    }
+    90% {
+        color: rgb(87, 221, 34);
+    }
+    100% {
+        color: black;
+    }
+}
+.anim-white{
+    animation-name: animWhite;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+}
+@keyframes animWhite{
+    0% {
+        color: black;
+    }
+    90% {
+        color: rgb(216, 216, 216);
+    }
+    100% {
+        color: black;
+    }
+}
+.anim-red{
+    animation-name: animRed;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+}
+@keyframes animRed{
+    0% {
+        color: black;
+    }
+    90% {
+        color: red;
+    }
+    100% {
+        color: black;
+    }
+}
+footer{
+    height: 100px;
+    padding-top: 25px;
+}
+#gridFooter{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.txt-footer{
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    font-size: 1.1rem;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+
+/* 
+    font-family: 'Architects Daughter', cursive;
+    более менее красиво
+
+    font-family: 'Bree Serif', serif;
+    основные надписи
+
+    font-family: 'Dancing Script', cursive; 
+    мелкие надписи по типу склада
+*/

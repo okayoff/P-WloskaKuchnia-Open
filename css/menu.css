@@ -1,0 +1,308 @@
+img {
+    width: 100%;
+    height: 100%;
+}
+.imgHome {
+    height: 50vh;
+    width: 100%;
+}
+.nav-backcolor{
+    background-color: white;
+    color: black;
+    z-index: 1000;
+}
+.txt-name{
+    font-family: 'Bree Serif', serif;
+    font-size: 1.5rem;
+    padding-top: 10px;
+}
+.txt-nav{
+    font-family: 'Bree Serif', serif;
+    color: black;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+.txt-nav:hover{
+    color: rgb(197, 54, 54);
+}
+.nav-zamow {
+    float: right;
+}
+.nav-txt-a-zamow{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+.nav-txt-a-zamow:hover{
+    color: rgb(197, 54, 54);
+}
+.txt-basic-menu{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 50px;
+}
+.txt{
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    font-size: 1.05rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    letter-spacing: 1px;
+}
+.txt-info{
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    font-size: 0.9rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #0dcaf0;
+    color: white;
+    margin-top: 60px;
+    letter-spacing: 1px;
+}
+
+/* carousel menu */
+#grid-carousel-menu{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.carousel-menu{
+    width: 250px;
+    height: 250px;
+    margin-top: 25px;
+    animation-name: example;
+    animation-duration: 700ms;
+    border-radius: 8px;
+}
+@keyframes example {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.txt-carousel-menu{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 60px;
+}
+.txt-carousel{
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    font-size: 1.1rem;
+    padding-top: 20px;
+    letter-spacing: 1px;
+}
+.mySlides{
+    display:none;
+}
+.button-menu-left{
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    height: 250px;
+    margin-top: 67.5px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.button-menu-right{
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    height: 250px;
+    margin-top: 67.5px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.txt-img-menu{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.226);
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    padding-top: 2px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+    letter-spacing: 1px;
+}
+
+
+#grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.txt-a{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-decoration: none;
+    color: black;
+}
+.txt-a:hover{
+    color: rgb(197, 54, 54);
+    text-decoration: none;
+}
+.div-zapoznaj{
+    text-align: center;
+}
+.txt-a-zamow{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 2rem;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-decoration: none;
+    color: black;
+}
+.txt-a-zamow:hover{
+    color: rgb(197, 54, 54);
+    text-decoration: none;
+}
+.zamow{
+    text-align: center;
+}
+.anim-green{
+    animation-name: animGreen;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+}
+@keyframes animGreen{
+    0% {
+        color: black;
+    }
+    90% {
+        color: green;
+    }
+    100% {
+        color: black;
+    }
+}
+.anim-white{
+    animation-name: animWhite;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+}
+@keyframes animWhite{
+    0% {
+        color: black;
+    }
+    90% {
+        color: wheat;
+    }
+    100% {
+        color: black;
+    }
+}
+.anim-red{
+    animation-name: animRed;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+}
+@keyframes animRed{
+    0% {
+        color: black;
+    }
+    90% {
+        color: red;
+    }
+    100% {
+        color: black;
+    }
+}
+footer{
+    height: 100px;
+    padding-top: 25px;
+}
+#gridFooter{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.txt-footer{
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    font-size: 1.1rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    letter-spacing: 1px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+}
+
+.modalPizza1, .modalPizza2, .modalPizza3, .modalNapoje1, .modalNapoje2,
+.modalNapoje3, .modalDeser1, .modalDeser2, .modalDeser3, .modalMakaron1,
+.modalMakaron2, .modalMakaron3, .modalSalatka1, .modalSalatka2, .modalSalatka3,
+.modalWege1, .modalWege2, .modalWege3  {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+.closePizza1, .closePizza2, .closePizza3, .closeNapoje1, .closeNapoje2,
+.closeNapoje3, .closeDeser1, .closeDeser2, .closeDeser3, .closeMakaron1,
+.closeMakaron2, .closeMakaron3, .closeSalatka1, .closeSalatka2, .closeSalatka3,
+.closeWege1, .closeWege2, .closeWege3  {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.closePizza1:hover, .closePizza2:hover, .closePizza3:hover, .closeNapoje1:hover, .closeNapoje2:hover,
+.closeNapoje3:hover, .closeDeser1:hover, .closeDeser2:hover, .closeDeser3:hover, .closeMakaron1:hover,
+.closeMakaron2:hover, .closeMakaron3:hover, .closeSalatka1:hover, .closeSalatka2:hover, .closeSalatka3:hover,
+.closeWege1:hover, .closeWege2:hover, .closeWege3:hover, .closePizza1:focus, .closePizza2:focus, .closePizza3:focus, .closeNapoje1:focus, .closeNapoje2:focus,
+.closeNapoje3:focus, .closeDeser1:focus, .closeDeser2:focus, .closeDeser3:focus, .closeMakaron1:focus,
+.closeMakaron2:focus, .closeMakaron3:focus, .closeSalatka1:focus, .closeSalatka2:focus, .closeSalatka3:focus,
+.closeWege1:focus, .closeWege2:focus, .closeWege3:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.text-menu-close{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+.text-info-close{
+    font-family: 'Architects Daughter', cursive;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-top: 15px;
+}
+.img-close{
+    width: 400px;
+    height: 400px;
+    margin-left: 31%;
+}

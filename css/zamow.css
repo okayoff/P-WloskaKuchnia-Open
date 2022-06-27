@@ -1,0 +1,117 @@
+img {
+    width: 100%;
+    height: 100%;
+}
+.imgHome {
+    height: 50vh;
+    width: 100%;
+}
+.nav-backcolor{
+    background-color: white;
+    color: black;
+    z-index: 1000;
+}
+.txt-name{
+    font-family: 'Bree Serif', serif;
+    font-size: 1.5rem;
+    padding-top: 10px;
+}
+.txt-nav{
+    font-family: 'Bree Serif', serif;
+    color: black;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+.txt-nav:hover{
+    color: rgb(197, 54, 54);
+}
+.txt-basic-zamow{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 50px;
+}
+.txt{
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    font-size: 1.05rem;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#container {
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+input {
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid black;
+    font-family: 'Architects Daughter', cursive;
+    margin-left: 100px;
+    margin-right: 100px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+input:focus {
+    outline: none;
+}
+button {
+    font-family: 'Architects Daughter', cursive;
+    background-color: white;
+    width: 130px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+button:focus{
+    outline: none;
+}
+.txt-error{
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    font-size: 1.05rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: red;
+    letter-spacing: 1px;
+}
+#imie-error {
+    visibility: hidden;
+}
+#tel-error {
+    visibility: hidden;
+}
+#email-error {
+    visibility: hidden;
+}
+#text-error {
+    visibility: hidden;
+}
+footer{
+    height: 100px;
+    padding-top: 65px;
+}
+#gridFooter{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.txt-footer{
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    font-size: 1.1rem;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.txt-success{
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    font-size: 1.05rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: green;
+    letter-spacing: 1px;
+}
